@@ -1,0 +1,11 @@
+# This is a sample config file for shipped.
+# Here you can describe GitHub repositories that you want to notify through an
+# issue when a new tag on their dependency repositories is found.
+#
+# acme-co/elixir-app:
+#   - elixir-lang/elixir
+#   - elixir-ecto/ecto
+#
+# acme-co/rails-app:
+#   - rails/rails
+#   - rspec/rspec-rails

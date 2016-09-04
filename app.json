@@ -1,0 +1,19 @@
+{
+  "name": "Shipped Heroku example",
+  "description": "A sample application to run lucasmazza/shipped on Heroku",
+  "repository": "https://github.com/lucasmazza/shipped-heroku-example",
+  "env": {
+    "GITHUB_OAUTH_TOKEN": {
+      "description": "GitHub OAuth2 Token used to create issues on your repositories"
+    }
+  },
+  "addons": [
+    "heroku-redis",
+    "scheduler"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-erlang"
+    }
+  ]
+}
